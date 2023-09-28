@@ -1,8 +1,8 @@
 ### Activate Google Cloud Shell
 
-Google Cloud Shell provides command-line access to your Google Cloud resources.
+* Google Cloud Shell provides command-line access to your Google Cloud resources.
 
-**  We can list the active account name with the following command:
+*  We can list the active account name with the following command:
 
 ```bash
 gcloud auth list
