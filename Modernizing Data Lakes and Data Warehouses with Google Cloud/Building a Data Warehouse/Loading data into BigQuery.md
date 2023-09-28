@@ -44,7 +44,7 @@ LIMIT  5
 
 In our cloud storage we have **nyc_tlc_yellow_trips_2018_subset_2.csv**
 
-In your Cloud Shell type the following command to ingest csv file to nyctaxi.2018trips
+In your Cloud Shell type the following command to ingest csv file to **nyctaxi.2018trips**
 
 ```bash
 bq load \
@@ -56,7 +56,7 @@ gs://cloud-training/OCBL013/nyc_tlc_yellow_trips_2018_subset_2.csv
 ```
 
 ### Create tables from other tables with DDL
-The 2018trips table now has trips from throughout the year. What if you were only interested in January trips?
+The **2018trips** table now has trips from throughout the year. What if you were only interested in January trips?
 
 In the Query Editor, run the following CREATE TABLE command
 
